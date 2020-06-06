@@ -1,0 +1,125 @@
+marquee{
+    background-color: black;
+    color:white;
+    padding:10px;
+    
+}
+
+
+/*google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans&family=PT+Sans+Narrow:wght@400;700&family=Playfair+Display:ital@1&display=swap');
+:root{
+    --primary-color:blueviolet;
+    --light-gray:#2b3032a1;
+    --border:black;
+    --text-color:yellow;
+}
+
+
+ .primary-color{
+    color:var(--primary-color);
+
+}
+.bg-primary-color{
+    background-color: var(--primary-color)!important;
+}
+.text-color{
+    color:var(--text-color);
+}
+.lightblue{
+    color:var(--light-blue);
+}
+/*header*/
+header{
+    background-color:var(--primary-color);
+}
+.container.dropdown-toggle,
+.container.dropdown-item{
+    font-size:0.7em
+}
+.header-links a{
+    font-size:0.9em;
+    text-decoration: none;
+    color:black;
+}
+.navbar-nav{
+    padding:17px;
+    
+}
+.navbar-nav.nav-link{
+    font-size:0.9em;
+    color:red;
+
+}
+.navbar-nav .nav-item .nav-link{
+    padding:0 1.3em;
+
+}
+.navbar-nav .basket-icon{
+    margin-right:6.5em!important;
+}
+<!--section-->
+.row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    
+  }
+
+  /*last section*/
+  #social-media{
+    
+    padding: 60px 0;
+
+    
+
+
+}
+#social-media p{
+    font-size:30px;
+    font-weight:600;
+    margin-bottom:30px;
+
+    
+}
+.social-icons img{
+    width:60px;
+    transition:0.5s;
+}
+.social-icons a:hover img{
+    transform:translateY(-10px);
+}
+.footer-box{
+    padding:20px;
+}
+.footer-box img{
+    width:120px;
+    margin-bottom:20px;
+
+}
+.footer-box .fa{
+    margin-right:8px;
+    font-size:25px;
+    height:40px;
+    width:40px;
+    text-align:center;
+    background-color: brown;
+    padding-top:6px;
+    border-radius: 2px;
+}
+.footer-box .form-control{
+    box-shadow:none;
+    margin-top:22px;
+    
+
+}
+.footer-box .btn-primary{
+    box-shadow:none;
+    background-color: cornflowerblue;
+    margin-top:20px;
+}
